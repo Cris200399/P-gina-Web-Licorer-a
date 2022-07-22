@@ -325,7 +325,12 @@ h6 {
 .header .logo {
   transition: 0.5s;
 }
-
+.col-md-4 .card img{
+  display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;
+  user-select: none;
+  width: 286px;
+  height: 286px;
+}
 .header .logo img {
   max-height: 40px;
   margin-right: 8px;
