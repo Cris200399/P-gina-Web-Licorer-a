@@ -1344,3 +1344,9 @@ h6 {
   font-size: 2rem;
   color: royalblue;
 }
+.border-color-dark-green{
+  border-color: #7F752E !important;
+}
+.card-img-top{
+  max-height: 380px;   
+}
