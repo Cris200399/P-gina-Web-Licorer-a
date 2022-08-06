@@ -1348,5 +1348,16 @@ h6 {
   border-color: #7F752E !important;
 }
 .card-img-top{
-  max-height: 380px;   
+  height: 100%!important;
+}
+@media (max-width: 450px){
+  .card-title{
+    font-size: 0.6rem;
+  }
+  .card-text{
+    font-size: 0.4rem;
+  }
+  .btn-buy{
+    font-size: 0.5rem;
+  }
 }
