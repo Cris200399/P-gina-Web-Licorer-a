@@ -1352,12 +1352,20 @@ h6 {
 }
 @media (max-width: 450px){
   .card-title{
-    font-size: 0.9rem;
+    font-size: 14px;
+    margin: 0px;
   }
   .card-text{
-    font-size: 0.6rem;
+    font-size: 12px;
   }
   .btn-buy{
-    font-size: 0.7rem;
+    font-size: 13px;
+  }
+  .card-body{
+    padding: 7px;
+  } 
+  .card-body .card-text{
+    padding: 3px;
+    margin: 0%;
   }
 }
