@@ -1348,7 +1348,7 @@ h6 {
   border-color: #7F752E !important;
 }
 .card-img-top{
-  height: 100%!important;
+  max-height: fit-content;
 }
 @media (max-width: 450px){
   .card-title{
