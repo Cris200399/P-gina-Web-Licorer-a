@@ -1345,10 +1345,32 @@ h6 {
   color: royalblue;
 }
 .border-color-dark-green{
-  border-color: #7F752E !important;
+  border-color: #000 !important;
+  border-width: 1rem;
 }
 .card-img-top{
   max-height: fit-content;
+}
+.card-title{
+  height: 1vw;
+  font-size: large;
+  
+}
+.card-text{
+  height: 1vw;
+}
+@media (max-width:1350px){
+  .card-title{
+    height: 3.8vh;    
+  }
+  .card-text{
+    height: 2vh;
+  } 
+}
+@media (max-width:450px){
+  .card-text{
+    height: 3vh;
+  } 
 }
 @media (max-width: 450px){
   .card-title{
@@ -1359,7 +1381,8 @@ h6 {
     font-size: 12px;
   }
   .btn-buy{
-    font-size: 13px;
+    size: 10px;
+    font-size: calc(100%-1rem);
   }
   .card-body{
     padding: 7px;
