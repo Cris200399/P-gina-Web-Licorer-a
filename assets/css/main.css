@@ -1392,3 +1392,6 @@ h6 {
     margin: 0%;
   }
 }
+.text-justify{
+  text-align: justify;
+}
