@@ -1349,7 +1349,8 @@ h6 {
   border-width: 1rem;
 }
 .card-img-top{
-  max-height: fit-content;
+  height: fit-content;
+  max-height: 310px;
 }
 .card-title{
   height: 1vw;
