@@ -1396,3 +1396,7 @@ h6 {
 .text-justify{
   text-align: justify;
 }
+.step-img{
+  max-width: 640px;
+  max-height: 480;
+}
