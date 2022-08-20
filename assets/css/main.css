@@ -1392,6 +1392,10 @@ h6 {
     padding: 3px;
     margin: 0%;
   }
+  .map{
+    width: 350px!important;
+    height: 325px!important;
+  }  
 }
 .text-justify{
   text-align: justify;
@@ -1403,4 +1407,12 @@ h6 {
 .step-img{
   max-width: 850px;
   max-height: 700px;
+}
+.map{ 
+  width:auto;
+  height:auto;
+  
+}
+.fade h3{
+  size: 0.5rem!important;
 }
