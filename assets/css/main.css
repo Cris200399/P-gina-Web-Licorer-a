@@ -1368,11 +1368,7 @@ h6 {
     height: 2vh;
   } 
 }
-@media (max-width:450px){
-  .card-text{
-    height: 3vh;
-  } 
-}
+
 @media (max-width: 450px){
   .card-title{
     font-size: 14px;
@@ -1380,6 +1376,9 @@ h6 {
   }
   .card-text{
     font-size: 12px;
+    height: 10px;
+    padding: 3px;
+    margin-top: 3px;
   }
   .btn-buy{
     size: 10px;
@@ -1388,7 +1387,7 @@ h6 {
   .card-body{
     padding: 7px;
   } 
-  .card-body .card-text{
+  .card-body {
     padding: 3px;
     margin: 0%;
   }
@@ -1409,8 +1408,8 @@ h6 {
   max-height: 700px;
 }
 .map{ 
-  width:auto;
-  height:auto;
+  width:550px;
+  height:525px  ;
   
 }
 .fade h3{
