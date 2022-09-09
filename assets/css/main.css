@@ -1367,6 +1367,15 @@ h6 {
   .card-text{
     height: 2vh;
   } 
+  
+}
+@media (max-width:900px){
+  .carousel-item > img{
+    height: 500px;
+  }  
+  .carousel-inner{
+    height: 500px;
+  }
 }
 
 @media (max-width: 450px){
@@ -1394,7 +1403,13 @@ h6 {
   .map{
     width: 350px!important;
     height: 325px!important;
+  }
+  .carousel-item > img{
+    height: 141px;
   }  
+  .carousel-inner{
+    height: 141px;
+  }
 }
 .text-justify{
   text-align: justify;
